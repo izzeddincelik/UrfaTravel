@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         //getSystemService()
 
         WebSettings webSettings = webb.getSettings();
-        webSettings.setJavaScriptEnabled(true);
+        webSettings.setJavaScriptEnabled(true); 
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
