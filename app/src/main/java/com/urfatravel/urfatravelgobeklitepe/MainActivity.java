@@ -18,13 +18,11 @@ public class MainActivity extends AppCompatActivity {
         WebView webb = (WebView)findViewById(R.id.web1);
         webb.setWebViewClient(new WebViewClient());
         webb.loadUrl("https://urfatravel.com");
-        //getSystemService()
 
         WebSettings webSettings = webb.getSettings();
-        webSettings.setJavaScriptEnabled(true); 
+        webSettings.setJavaScriptEnabled(true);
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        //setContentView(R.layout.activity_main);
     }
 }
